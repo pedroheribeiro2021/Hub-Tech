@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal-overlay {
+  background-color: rgba(18, 18, 20, 0.5);
+
+  position: fixed;
+  top: 0;
+
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.modal-content {
+  background-color: var(--gray3);
+  width: 369px;
+  height: 342px;
+  border-radius: 4px;
+}
+
+.head {
+  background-color: var(--gray2);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  border-radius: 4px 4px 0 0;
+}
+
+.head > h2 {
+  color: white;
+}
+
+.head > span {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content > div > form {
+  margin: 20px auto;
+}
+
+.modal-content > div > form > label {
+  margin: 15px 0;
+}
+
+.modal-content > div > form > button {
+  margin: 15px 0;
+}
